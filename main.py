@@ -8,7 +8,7 @@ pass
 @app.get("/")
 def root():
     return {
-        "msg": "Hello World!"
+        "msg": "Hello World"
     }
 
 
