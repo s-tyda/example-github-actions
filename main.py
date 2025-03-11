@@ -2,12 +2,13 @@ from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
 app = FastAPI()
+pass
 
 
 @app.get("/")
 def root():
     return {
-        "msg": "Hello World!"
+        "msg": "Hello World"
     }
 
 
